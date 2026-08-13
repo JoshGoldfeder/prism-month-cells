@@ -1,2 +1,5 @@
-# prism-month-cells
-PRISM Medicaid month-cell slices (NPI prefix-6). Public HHS T-MSIS extract for on-demand provider charts.
+# PRISM month cells
+
+NPI prefix-6 parquet slices from HHS Medicaid Provider Spending (T-MSIS).
+
+Path: `{npi[0:2]}/{npi[0:6]}.parquet`
